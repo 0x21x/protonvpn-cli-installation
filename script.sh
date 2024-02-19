@@ -4,7 +4,7 @@
 sudo apt-get update
 
 # Install Proton CLI
-curl -sL https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3_all.deb -O /home/$USER/Downloads/protonvpn-stable-release.deb
+curl https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3_all.deb -O /home/$USER/Downloads/protonvpn-stable-release.deb
 
 sudo apt install /home/$USER/Downloads/protonvpn-stable-release.deb
 
