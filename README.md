@@ -1,4 +1,4 @@
 # protonvpn-cli-installation
 ``` bash
-curl -s https://github.com/0x21x/protonvpn-cli-installation/script.sh
+curl -s https://raw.githubusercontent.com/0x21x/protonvpn-cli-installation/main/script.sh
 ```
