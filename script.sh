@@ -8,9 +8,9 @@ sudo apt-get install -y curl
 sudo apt autoremove "protonvpn*" proton-vpn-gnome-desktop
 
 # Install Proton CLI
-curl -sL https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3_all.deb -O /home/$USER/Downloads/protonvpn-stable-release_1.0.3_all.deb
+curl -sL https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3_all.deb -O /home/$USER/Downloads/protonvpn-stable-release.deb
 
-sudo apt install /home/$USER/Downloads/protonvpn-stable-release_1.0.3_all.deb
+sudo apt install /home/$USER/Downloads/protonvpn-stable-release.deb
 
 sudo apt-get install protonvpn-cli
 
